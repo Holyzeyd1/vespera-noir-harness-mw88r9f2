@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vespera Noir | Tarzını Özgür Bırak</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        noir: {
+                            950: '#0a0a0a',
+                            900: '#121212',
+                            800: '#1f1f1f',
+                            700: '#2d2d2d',
+                        },
+                        gold: {
+                            400: '#d4af37',
+                            500: '#c5a059',
+                            600: '#aa823f',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Cinzel"', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-noir-950 text-gray-100 font-sans selection:bg-gold-500 selection:text-noir-950">
+
+    <!-- Üst Duyuru Barı -->
+    <div class="bg-gradient-to-r from-noir-900 via-noir-800 to-noir-900 border-b border-gold-500/20 text-xs py-2.5 text-center text-gray-300 px-4">
+        <span class="text-gold-400 font-semibold uppercase tracking-wider">Sezonun Trendi:</span> Kaçırılmayacak Black Friday & 11.11 Fırsatları Başladı! ⚡ Aynı Gün Gizli Kargo.
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-noir-950/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="font-serif text-2xl sm:text-3xl tracking-widest text-white font-bold">VESPERA <span class="text-gold-500">NOIR</span></span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#ozellikler" class="hover:text-gold-400 transition">Özellikler</a>
+                <a href="#kombin" class="hover:text-gold-400 transition">Stil Rehberi</a>
+                <a href="#guven" class="hover:text-gold-400 transition">Güvenli Alışveriş</a>
+                <a href="#sss" class="hover:text-gold-400 transition">S.S.S.</a>
+            </nav>
+            <div>
+                <a href="#siparis" class="bg-gold-500 hover:bg-gold-600 text-noir-950 font-semibold px-5 py-2.5 rounded-full text-sm transition shadow-lg shadow-gold-500/10">
+                    Hemen Sipariş Ver
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden py-16 lg:py-24 border-b border-gray-800/60">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(197,160,89,0.08),transparent_50%)]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-noir-900 border border-gold-500/30 px-3.5 py-1.5 rounded-full text-xs text-gold-400 tracking-wide font-medium">
+                        <i class="fa-solid fa-sparkles"></i> Özel Tasarım & Esnek Yapı
+                    </div>
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
+                        Tarzınıza Asil ve <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-amber-200">Çarpıcı Bir Dokunuş</span>
+                    </h1>
+                    <p class="text-gray-400 text-base sm:text-lg max-w-xl mx-auto lg:mx-0">
+                        Hafif, esnek ve yüksek kaliteli suni deri işçiliği ile üretilen Vespera Noir Faux Leather Harness; iddialı kombinlerinizin vazgeçilmez tamamlayıcısı.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#siparis" class="w-full sm:w-auto bg-gold-500 hover:bg-gold-600 text-noir-950 font-bold px-8 py-4 rounded-xl text-center transition shadow-xl shadow-gold-500/20 flex items-center justify-center gap-3">
+                            <span>Hemen Satın Al</span>
+                            <span class="bg-noir-950/10 px-2.5 py-0.5 rounded-lg text-lg">₺170,99</span>
+                        </a>
+                        <div class="flex items-center gap-2 text-xs text-gray-400">
+                            <i class="fa-solid fa-shield-halved text-gold-500 text-base"></i>
+                            <span>%100 Gizli Paketleme & Gönderim</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-gray-800/80 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <div class="text-gold-400 font-bold text-lg">Esnek</div>
+                            <div class="text-xs text-gray-400">Vücuda Tam Uyum</div>
+                        </div>
+                        <div>
+                            <div class="text-gold-400 font-bold text-lg">Hafif</div>
+                            <div class="text-xs text-gray-400">Gün Boyu Konfor</div>
+                        </div>
+                        <div>
+                            <div class="text-gold-400 font-bold text-lg">Premium</div>
+                            <div class="text-xs text-gray-400">Suni Deri Detay</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 relative">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-gold-500 to-amber-600 rounded-2xl blur-xl opacity-20"></div>
+                    <div class="relative rounded-2xl overflow-hidden border border-gray-800 bg-noir-900 shadow-2xl">
+                        <img src="https://image.pollinations.ai/prompt/A%20stylish%20woman%20wearing%20black%20faux%20leather%20harness%20body%20accessory%20with%20chain%20details,%20dark%20mood%20studio%20lighting,%20high%20fashion%20photography?width=1024&height=1024&nologo=true" alt="Vespera Noir Harness" class="w-full h-auto object-cover hover:scale-105 transition duration-700">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Özellikler / Ürün Detayları -->
+    <section id="ozellikler" class="py-20 bg-noir-900/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-4">Detaylardaki Kusursuzluk</h2>
+                <p class="text-gray-400">Her hatla mükemmel uyum sağlaması için özenle tasarlandı.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Kart 1 -->
+                <div class="bg-noir-900 border border-gray-800 p-8 rounded-2xl hover:border-gold-500/50 transition group">
+                    <div class="w-12 h-12 bg-gold-500/10 rounded-xl flex items-center justify-center text-gold-400 text-xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-feather"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-white mb-3">Hafif ve Konforlu</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Üzerinizde yokmuş gibi hissettiren hafif yapısıyla uzun süreli kullanımlarda dahi maksimum rahatlık sunar.
+                    </p>
+                </div>
+                <!-- Kart 2 -->
+                <div class="bg-noir-900 border border-gray-800 p-8 rounded-2xl hover:border-gold-500/50 transition group">
+                    <div class="w-12 h-12 bg-gold-500/10 rounded-xl flex items-center justify-center text-gold-400 text-xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-white mb-3">Esnek ve Ayarlanabilir</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Esnek yapısı ve ayarlanabilir tokaları sayesinde farklı beden ölçülerine kusursuz uyum sağlar, kolayca kişiselleştirilebilir.
+                    </p>
+                </div>
+                <!-- Kart 3 -->
+                <div class="bg-noir-900 border border-gray-800 p-8 rounded-2xl hover:border-gold-500/50 transition group">
+                    <div class="w-12 h-12 bg-gold-500/10 rounded-xl flex items-center justify-center text-gold-400 text-xl mb-6 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    <h3 class="font-bold text-xl text-white mb-3">Zincir Detaylı Şıklık</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Özenle eklenmiş metal zincir detayları ile modern ve gotik çizgileri harmanlayarak tarzınızı bir üst seviyeye taşır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stil & Kombin Section -->
+    <section id="kombin" class="py-20 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 relative">
+                    <div class="relative rounded-2xl overflow-hidden border border-gray-800 bg-noir-900 shadow-2xl">
+                        <img src="https://image.pollinations.ai/prompt/Close%20up%20shot%20of%20black%20faux%20leather%20harness%20straps%20and%20metal%20rings,%20luxury%20fashion%20accessory%20macro%20photography?width=1024&height=1024&nologo=true" alt="Harness Detayları" class="w-full h-auto object-cover">
+                    </div>
+                </div>
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-noir-900 border border-gold-500/30 px-3.5 py-1.5 rounded-full text-xs text-gold-400 tracking-wide font-medium">
+                        Kombin Önerisi
+                    </div>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">Sınırları Zorlayan Tarz</h2>
+                    <p class="text-gray-400 leading-relaxed">
+                        İster gece elbiselerinizin üzerinde göz alıcı bir detay olarak kullanın, ister özel anlarınızda tarzınızı tamamlayın. Vespera Noir, çok yönlü kullanım imkanıyla gardırobunuzun en iddialı parçası olacak.
+                    </p>
+                    <ul class="space-y-3 text-gray-300 text-sm">
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-gold-500"></i>
+                            <span>Elbiseler, gömlekler ve body'ler ile kusursuz uyum</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-gold-500"></i>
+                            <span>Kolay giyilip çıkarılabilen ergonomik tasarım</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-gold-500"></i>
+                            <span>Cildi tahriş etmeyen pürüzsüz iç yüzey</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Güven & Alışveriş Deneyimi (Türkiye Pazar Odaklı) -->
+    <section id="guven" class="py-16 bg-noir-900/40 border-t border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="space-y-2">
+                    <div class="text-gold-400 text-3xl mb-3"><i class="fa-solid fa-box-archive"></i></div>
+                    <h4 class="font-bold text-white">Gizli Paketleme</h4>
+                    <p class="text-xs text-gray-400">İçeriği dışarıdan kesinlikle belli olmayan özel kargo poşeti.</p>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-gold-400 text-3xl mb-3"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h4 class="font-bold text-white">Hızlı & Güvenli Kargo</h4>
+                    <p class="text-xs text-gray-400">Siparişleriniz en kısa sürede kargoya verilir.</p>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-gold-400 text-3xl mb-3"><i class="fa-solid fa-credit-card"></i></div>
+                    <h4 class="font-bold text-white">Esnek Ödeme</h4>
+                    <p class="text-xs text-gray-400">Kapıda ödeme imkanı ve kredi kartına taksit seçenekleri.</p>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-gold-400 text-3xl mb-3"><i class="fa-solid fa-rotate-left"></i></div>
+                    <h4 class="font-bold text-white">Kolay İade</h4>
+                    <p class="text-xs text-gray-400">Koşulsuz şartsız kolay değişim ve iade desteği.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sipariş / CTA Bölümü -->
+    <section id="siparis" class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(197,160,89,0.1),transparent_70%)]"></div>
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="bg-noir-900 border border-gold-500/30 p-8 sm:p-12 rounded-3xl shadow-2xl">
+                <span class="text-gold-400 text-sm font-semibold uppercase tracking-widest">Özel Kampanya Fiyatı</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-2 mb-4">Vespera Noir Harness Sahibi Olun</h2>
+                <p class="text-gray-400 text-sm sm:text-base mb-8 max-w-xl mx-auto">
+                    Stoklarla sınırlı bu özel tasarıma sahip olmak için hemen bilgilerinizi girin, gizli kargo avantajıyla kapınıza gelsin.
+                </p>
+                <div class="text-4xl sm:text-5xl font-extrabold text-white mb-8">
+                    ₺170,99 <span class="text-xs font-normal text-gray-400 block mt-1">KDV Dahil • Ücretsiz & Gizli Kargo Fırsatıyla</span>
+                </div>
+
+                <!-- Sipariş Formu Simulasyonu -->
+                <form class="space-y-4 max-w-md mx-auto text-left" onsubmit="event.preventDefault(); alert('Sipariş talebiniz alınmıştır. En kısa sürede sizinle iletişime geçilecektir.');">
+                    <div>
+                        <label class="block text-xs font-medium text-gray-300 mb-1">Ad Soyad</label>
+                        <input type="text" required class="w-full bg-noir-950 border border-gray-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-500" placeholder="Adınız Soyadınız">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium text-gray-300 mb-1">Cep Telefonu</label>
+                        <input type="tel" required class="w-full bg-noir-950 border border-gray-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-500" placeholder="05XX XXX XX XX">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium text-gray-300 mb-1">Teslimat Adresi</label>
+                        <textarea required rows="2" class="w-full bg-noir-950 border border-gray-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-500" placeholder="İl, İlçe, Mahalle, Cadde/Sokak, No"></textarea>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium text-gray-300 mb-1">Ödeme Yöntemi</label>
+                        <select class="w-full bg-noir-950 border border-gray-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-gold-500">
+                            <option>Kapıda Nakit / Kartla Ödeme</option>
+                            <option>Kredi Kartı ile Güvenli Ödeme</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="w-full bg-gold-500 hover:bg-gold-600 text-noir-950 font-bold py-4 rounded-xl text-center transition shadow-lg shadow-gold-500/20 mt-4">
+                        Siparişi Tamamla (₺170,99)
+                    </button>
+                    <p class="text-center text-[10px] text-gray-500 mt-3">
+                        Siparişiniz %100 gizli paket ile gönderilir. Kargo paketinde ürün içeriği kesinlikle yer almaz.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sıkça Sorulan Sorular (SSS) -->
+    <section id="sss" class="py-20 border-t border-gray-800 bg-noir-900/30">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-3xl font-bold text-white mb-2">Sıkça Sorulan Sorular</h2>
+                <p class="text-gray-400 text-sm">Merak ettiğiniz tüm detaylar</p>
+            </div>
+            <div class="space-y-4">
+                <div class="bg-noir-900 border border-gray-800 p-6 rounded-2xl">
+                    <h3 class="font-bold text-white text-base mb-2">Kargo paketinin üzerinde ne yazıyor? Gizlilik sağlanıyor mu?</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Evet, kesinlikle. Gönderilerimiz tamamen gizli paketleme ile yapılır. Kargo paketinin dışında ürün adı, içeriği veya kategoriyle ilgili en ufak bir ibare bulunmaz.</p>
+                </div>
+                <div class="bg-noir-900 border border-gray-800 p-6 rounded-2xl">
+                    <h3 class="font-bold text-white text-base mb-2">Beden uyumu nasıl sağlanıyor?</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Ürünümüz ayarlanabilir tokalı yapısı sayesinde farklı vücut ölçülerine kolayca uyum sağlar, kişisel konforunuza göre daraltıp genişletebilirsiniz.</p>
+                </div>
+                <div class="bg-noir-900 border border-gray-800 p-6 rounded-2xl">
+                    <h3 class="font-bold text-white text-base mb-2">Kapıda ödeme seçeneğiniz var mı?</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Evet, Türkiye'nin her yerine kapıda nakit veya kapıda kartla ödeme seçeneği ile sipariş verebilirsiniz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-noir-950 border-t border-gray-800 py-12 text-gray-400 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
+                <div class="font-serif text-2xl tracking-widest text-white font-bold">
+                    VESPERA <span class="text-gold-500">NOIR</span>
+                </div>
+                <div class="flex flex-wrap justify-center gap-6 text-xs text-gray-400">
+                    <a href="#" class="hover:text-gold-400 transition">Gizlilik Politikası</a>
+                    <a href="#" class="hover:text-gold-400 transition">Mesafeli Satış Sözleşmesi</a>
+                    <a href="#" class="hover:text-gold-400 transition">İptal ve İade Koşulları</a>
+                    <a href="#" class="hover:text-gold-400 transition">İletişim</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-900 pt-6 text-center text-xs text-gray-600">
+                &copy; 2024 Vespera Noir. Tüm hakları saklıdır. Bu site Türkiye pazarı için özel olarak hazırlanmıştır.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
